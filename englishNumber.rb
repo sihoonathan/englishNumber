@@ -6,7 +6,7 @@ def englishNumber(num)
   if num < 0
     return 'Please input number greater than or equal to 0'
   end
-  
+
   string = ''
 
   onesPlace = ['one',     'two',       'three',    'four',     'five',
@@ -97,7 +97,7 @@ puts englishNumber(101)
 puts englishNumber(234)
 puts englishNumber(3211)
 puts englishNumber(999999)
-puts englishNumber(1000000000000)
-puts englishNumber(10000)
+puts englishNumber(102023490000)
+puts englishNumber(1012300)
 puts englishNumber(1000)
 puts englishNumber(1000000)
