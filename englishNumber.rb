@@ -3,6 +3,10 @@ def englishNumber(num)
     return 'zero'
   end
 
+  if num < 0
+    return 'Please input number greater than or equal to 0'
+  end
+  
   string = ''
 
   onesPlace = ['one',     'two',       'three',    'four',     'five',
